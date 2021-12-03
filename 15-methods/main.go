@@ -29,6 +29,6 @@ func (u User) GetStatus() { // here is u is the copy of User Structure
 }
 
 func (u User) NewMail() {
-	u.Email = "test@test.com"
+	u.Email = "test@test.com" //setter
 	fmt.Println("Email of this user is: ", u.Email)
 }
