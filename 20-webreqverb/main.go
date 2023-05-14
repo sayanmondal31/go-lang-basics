@@ -11,8 +11,8 @@ import (
 func main() {
 	fmt.Println("welcome to web verb video -lco")
 	// PerformGetRequest()
-	// PerformPostJsonRequest()
-	performPostFormRequest()
+	PerformPostJsonRequest()
+	// performPostFormRequest()
 }
 
 func PerformGetRequest() {

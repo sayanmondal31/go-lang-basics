@@ -10,14 +10,14 @@ func main() {
 
 	var fruitList = []string{"Apple", "Peach", "Dragonfruit"} // initializing slices
 
-	fmt.Printf("Type of fruitlist is %T\n", fruitList) // shows the type of fruitlist
+	fmt.Printf("Type of fruitlist is %T\n", fruitList) // shows the type of fruitlist is []string ; this is slice
 
 	// adding new fruits to fruitlist
 	fruitList = append(fruitList, "Mango", "Banana")
-	fmt.Println(fruitList)
+	fmt.Println(fruitList, "Fruit list🍉🍉🥭🥭 ")
 
 	fruitList = append(fruitList[1:3])
-	fmt.Println(fruitList)
+	fmt.Println(fruitList, "SLiced fruit list")
 
 	// another way of initializing slice with allocation of memory
 
@@ -27,9 +27,10 @@ func main() {
 	highScores[1] = 303
 	highScores[2] = 950
 	highScores[3] = 238
-	// highScores[3] = 238
+	// highScores[4] = 236
 
-	highScores = append(highScores, 555, 352, 450) // even we allocating memory with 4 but while using append method
+	// add data to slices
+	highScores = append(highScores, 555, 352, 450) // even we allocating memory with 4 but while using **append** method
 	// go reinitializing memory
 
 	fmt.Println(highScores)
@@ -38,7 +39,7 @@ func main() {
 	fmt.Println(highScores)
 	fmt.Println("is my slice sorted? ", sort.IntsAreSorted(highScores))
 
-	// how to remove a value from slices based on index
+	//*************** how to remove a value from slices based on index ******************
 
 	var courses = []string{"Reactjs", "Javascript", "Swift", "Python", "Ruby"}
 

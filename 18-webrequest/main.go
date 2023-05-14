@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const url = "https://risingleafs.com"
+const url = "https://lco.dev"
 
 func main() {
 	fmt.Println("web request")

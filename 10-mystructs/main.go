@@ -13,7 +13,7 @@ func main() {
 	fmt.Printf("Name is %v and Email is %v ", sayan.Name, sayan.Email)
 }
 
-// make capital while creating structure
+// make capital while creating structure ,also can be accessed by anybody
 type User struct {
 	Name   string
 	Email  string

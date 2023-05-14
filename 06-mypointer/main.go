@@ -9,13 +9,13 @@ func main() {
 
 	fmt.Println("value of pointer is ", ptr)
 
-	fmt.Println("value of pointer is ", &ptr)
+	fmt.Println("memory address  is ", &ptr)
 
 	myNumber := 23
 
-	var ptr2 = &myNumber // reference means &
+	var ptr2 = &myNumber // reference means & || create a pointer and referencing a value
 
-	fmt.Println("Value of ptr2 is ", ptr2)
+	fmt.Println("Memory address ptr2 is ", ptr2)
 	fmt.Println("Value of ptr2 is ", *ptr2)
 
 	*ptr2 = *ptr2 * *ptr2

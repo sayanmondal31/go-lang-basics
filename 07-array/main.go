@@ -13,7 +13,7 @@ func main() {
 	fruitList[3] = "Peach"
 
 	fmt.Println("Fruit list is: ", fruitList)
-	fmt.Println("Fruit list is: ", len(fruitList))
+	fmt.Println("Fruit list length is: ", len(fruitList))
 
 	var vegList = [3]string{"carrot", "beans", "onion"}
 

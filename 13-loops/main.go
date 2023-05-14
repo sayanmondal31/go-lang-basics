@@ -45,7 +45,7 @@ func main() {
 	}
 
 	// using it fot goto
-rl:
+
 	fmt.Println("Jumping at risingleafs.com")
 
 }
