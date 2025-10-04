@@ -1,0 +1,13 @@
+POST http://localhost:8080/events
+content-type: application/json
+
+{
+     "name": "event name",       
+	"description": "this is event description",
+	"location":"kolkata",
+	"dateTime":"2023-10-10T10:00:00Z",
+}
+
+GET http://localhost:8080/events
+content-type: application/json
+
